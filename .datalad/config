@@ -1,2 +1,5 @@
 [datalad "dataset"]
 	id = 3236b53a-d01f-4879-85fa-96b13289f191
+[datalad "containers.dandi-validation"]
+	image = envs/dandi-validation/image
+	cmdexec = apptainer exec --cleanenv {img} {cmd}
